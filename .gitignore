@@ -1,0 +1,27 @@
+Debug/
+Release/
+build/
+build-debug/
+build-release/
+.ccls-cache/
+.cache/
+.DS_Store
+*.launch
+tags
+.vscode/
+.idea/
+cmake-build-debug
+cmake-build-release
+
+# Rust
+Cargo.lock
+
+# Python
+env/
+.venv/
+.env/
+.ipynb_checkpoints
+__pycache__/
+
+# Visualization related
+viz/target

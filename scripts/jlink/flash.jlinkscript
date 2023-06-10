@@ -1,0 +1,7 @@
+ExitOnError 1
+r
+h
+loadfile "core0.elf.hex"
+qc
+
+qc
