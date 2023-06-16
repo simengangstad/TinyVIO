@@ -420,20 +420,9 @@ namespace frontend {
 
         int dy = (int)round(pattern_coordinate.x() * sin_angle +
                             pattern_coordinate.y() * cos_angle);
-        __asm volatile("nop");
-        __asm volatile("nop");
-        __asm volatile("nop");
-        __asm volatile("nop");
-        __asm volatile("nop");
-        __asm volatile("nop");
+        
         reflect_inplace(centre_coordinate, dx, dy);
-        __asm volatile("nop");
-        __asm volatile("nop");
-        __asm volatile("nop");
-        __asm volatile("nop");
-        __asm volatile("nop");
-        __asm volatile("nop");
-
+        
         return *(centre_pixel_pointer + dy * stride + dx);
     }
 
