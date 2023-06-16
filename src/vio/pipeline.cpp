@@ -27,7 +27,7 @@ namespace vio {
     using namespace Eigen;
 
     /**
-     * @brief Buffer for the image data (placed in DTCM)
+     * @brief Buffer for the image data.
      */
     AT_OCRAM_SECTION_DATA(
         static uint8_t data_buffer[IMAGE_WIDTH * IMAGE_HEIGHT]);
