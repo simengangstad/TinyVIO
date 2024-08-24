@@ -2,6 +2,8 @@
 
 A bare-metal visual-inertial odometry implementation based on [LARVIO](https://github.com/PetWorm/LARVIO) and MSCKF on the i.MX RT1170 microcontroller. The code in this project represents the work done over a year with a specialisation project and a master's thesis at the Norwegian University of Science and Technology (NTNU).
 
+The thesis and its results can be found [here](docs/thesis.pdf).
+
 ## Setup for the i.MX RT1170-EVK
 
 The debugger on the evaluation board needs to be flashed with the JLink firmware, more information [here](https://community.nxp.com/t5/i-MX-RT-Knowledge-Base/Using-J-Link-with-MIMXRT1160-EVK-or-MIMXRT1170-EVK/ta-p/1529760). JLink also needs to be installed for flashing.
